@@ -48,9 +48,14 @@ public class Main {
 //        Child co = new Child();
 //        Child co1 = new Child("Passing child class var");
 
-          System.out.println("Static Demo");
-          //day0405 3rd question
-          StaticDemo sd = new StaticDemo();
+//          System.out.println("Static Demo");
+//          //day0405 3rd question
+//          StaticDemo sd = new StaticDemo();
+
+          System.out.println("Final Demo");
+          //day0405 4th question
+          FinalClass fc = new FinalClass();
+          System.out.println(fc.finalMethod());
     }
 
 }
