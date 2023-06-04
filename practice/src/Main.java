@@ -43,9 +43,14 @@ public class Main {
 //        w.model();
 //        w.color();
 
-        System.out.println(("\nConstructor overloading"));
-        //day0405 2nd question
-        Child co = new Child();
-        Child co1 = new Child("Passing child class var");
+//        System.out.println(("\nConstructor overloading"));
+//        //day0405 2nd question
+//        Child co = new Child();
+//        Child co1 = new Child("Passing child class var");
+
+          System.out.println("Static Demo");
+          //day0405 3rd question
+          StaticDemo sd = new StaticDemo();
     }
+
 }
