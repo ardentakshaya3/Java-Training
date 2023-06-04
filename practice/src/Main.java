@@ -6,9 +6,9 @@ public class Main {
 
         Student s = new Student();
         s.setName("Akshaya");
-        System.out.println("Student's name is "+s.getName());
+        System.out.println("\nStudent's name is "+s.getName());
 
-        System.out.println("Product Class");
+        System.out.println("\nProduct Class");
         //Product class
         Scanner sc = new Scanner(System.in);
         Product p = new Product();
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Price with 4 is "+resultI);
         System.out.println("Price with 5.8 is "+resultD);
 
-        System.out.println("RUn-time Poly");
+        System.out.println("\nRun-time Poly");
         //Run-time polymorphism (Planet.java)
         Planet c= new Planet();
         Planet c1 = new First();
@@ -32,12 +32,16 @@ public class Main {
         c2.printPlanet();
         c3.printPlanet();
 
-        System.out.println("Department class");
+        System.out.println("\nDepartment class");
         //Department assignment
         Name n = new Name();
         System.out.println(n.getDepartmentSize());
 
-
+        System.out.println("\nInterface Demo");
+        //Interface assignment
+        Watch w =new Watch();
+        w.model();
+        w.color();
 
     }
 }
