@@ -12,11 +12,13 @@ class FindArray
         {
             if(a[i]>l)
                 l=a[i];
-
             if(a[i]<s)
                 s=a[i];
         }
-        System.out.println("The smallest element is " + s );
+        System.out.println("Given array: ");
+        for(i=0;i<n;i++)
+            System.out.printf(a[i]+" ");
+        System.out.println("\nThe smallest element is " + s );
         System.out.print("The largest element is " + l );
     }
 }
