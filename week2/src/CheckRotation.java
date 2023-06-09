@@ -13,7 +13,7 @@ public class CheckRotation {
         }
         else {
             s3 = s1 + s1;
-            if (s3.contains(s1)) {
+            if (s3.contains(s2)) {
                 System.out.println("True");
             } else {
                 System.out.println("False");
