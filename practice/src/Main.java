@@ -52,10 +52,10 @@ public class Main {
 //          //day0405 3rd question
 //          StaticDemo sd = new StaticDemo();
 
-//          System.out.println("Final Demo");
-//          //day0405 4th question
-//          FinalClass fc = new FinalClass();
-//          System.out.println(fc.finalMethod());
+          System.out.println("Final Demo");
+          //day0405 4th question
+          FinalClass fc = new FinalClass();
+          System.out.println(fc.finalMethod());
     }
 
 }
