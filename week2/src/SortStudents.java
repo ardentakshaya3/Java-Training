@@ -17,7 +17,7 @@ class Student {
 class SortByLN implements Comparator<Student> {
     @Override
     public int compare(Student a1, Student a2) {
-        return a1.ln.charAt(0) - a2.ln.charAt(0);
+        return a1.ln.compareTo(a2.ln);
     }
 }
 public class SortStudents {
