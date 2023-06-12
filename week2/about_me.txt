@@ -1,6 +1,6 @@
 About Me:
 
-I am Akshaya currently working with Tata Consultancy Services as a Full stack developer. I have 8 years of  experience in software application development, testing, and maintenance. As a full-stack developer, I enhanced my technical skill-set in Java related technologies. For backend functionalities I used Sprin Boot and Hibernate. While for front-end, I used from basic to advanced web technologies like HTML, CSS, JS, Angular, and am a beginner in React. The version control system I used was GIT. I worked in a few domains like Banking and health care. Currently, I am working on a banking application where I am integrated with front-end development using AngularJS. Also, I have participated in troubleshooting the production defects.
+I am Akshaya currently working with Tata Consultancy Services as a Full stack developer. I have 8 years of  experience in software application development, testing, and maintenance. As a full-stack developer, I enhanced my technical skill-set in Java related technologies. For backend functionalities I used Spring Boot and Hibernate. While for front-end, I used from basic to advanced web technologies like HTML, CSS, JS, Angular, and am a beginner in React. The version control system I used was GIT. I worked in a few domains like Banking and health care. Currently, I am working on a banking application where I am integrated with front-end development using AngularJS. Also, I have participated in troubleshooting the production defects.
 
 Current project:
 
