@@ -1,0 +1,9 @@
+About Me:
+
+I am Akshaya currently working with Tata Consultancy Services as a Full stack developer. I have 8 years of  experience in software application development, testing, and maintenance. As a full-stack developer, I enhanced my technical skill-set in Java related technologies. For backend functionalities I used Sprin Boot and Hibernate. While for front-end, I used from basic to advanced web technologies like HTML, CSS, JS, Angular, and am a beginner in React. The version control system I used was GIT. I worked in a few domains like Banking and health care. Currently, I am working on a banking application where I am integrated with front-end development using AngularJS. Also, I have participated in troubleshooting the production defects.
+
+Current project:
+
+I worked with Western Union which is a banking company. I worked on their money movement platform which is responsible for moving funds to and from its bank accounts. We support several programs such as  Bill Pay at bank or store, ACH, Overdraft,and Instant Funding based on the speed, cost, and the type of transfer the user opts for. We internally integrate with network rails such as Mastercard and Visa and facilitate these money movement operations. I was also responsible in the team for helping with migration from legacy system to the latest version architecture, like from AngularJS to Angular.  
+
+We are following the trending Agile methodology in this project and in this role, I had the chance to work on some interesting initiatives and solved some challenging problems. In general, I enjoy working in challenging environments where there is a lot to learn and where I feel that I can exhibit my skill-set by providing an optimal solution to respective problem statement.
