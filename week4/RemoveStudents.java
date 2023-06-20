@@ -44,12 +44,12 @@ public class RemoveStudents {
 
         System.out.println("Students having gpa < average gpa:");
 
-        Iterator<StudentObj> iterator = studentList.iterator();
-        while (iterator.hasNext()) {
-            StudentObj student = iterator.next();
+        Iterator<StudentObj> i = studentList.iterator();
+        while (i.hasNext()) {
+            StudentObj student = i.next();
             if (student.gpa() < averageGpa) {
                 System.out.println(student.firstName + " " + student.lastName);
-                iterator.remove();
+                i.remove();
             }
         }
 
