@@ -33,10 +33,10 @@ public class SubmissionRepoClassTest {
     @Test
     public void testPostSubmission() {
         SubmissionDTO inputForm = new SubmissionDTO();
-        inputForm.setName("John Doe");
+        inputForm.setName("Akshaya");
         inputForm.setVendorName("ABC Corp");
         inputForm.setRate(100);
-        inputForm.setLeadName("Jane Smith");
+        inputForm.setLeadName("Spandana");
         inputForm.setTechnology("Java");
 
         when(submissionService.postSubmission(inputForm)).thenAnswer(invocation -> {
@@ -53,10 +53,10 @@ public class SubmissionRepoClassTest {
         String id = "sampleId";
         SubmissionDTO expectedForm = new SubmissionDTO();
         expectedForm.setId(id);
-        expectedForm.setName("John Doe");
-        expectedForm.setVendorName("ABC Corp");
+        expectedForm.setName("Sai Sri");
+        expectedForm.setVendorName("XYZ Corp");
         expectedForm.setRate(100);
-        expectedForm.setLeadName("Jane Smith");
+        expectedForm.setLeadName("Tejan");
         expectedForm.setTechnology("Java");
 
         when(submissionService.getSubmissionFormById(id)).thenReturn(expectedForm);
@@ -72,11 +72,11 @@ public class SubmissionRepoClassTest {
     public void testEditSubmission() {
         SubmissionDTO inputForm = new SubmissionDTO();
         inputForm.setId("sampleId");
-        inputForm.setName("John Doe");
-        inputForm.setVendorName("ABC Corp");
+        inputForm.setName("Jaya");
+        inputForm.setVendorName("Tech Corp");
         inputForm.setRate(100);
-        inputForm.setLeadName("Jane Smith");
-        inputForm.setTechnology("Java");
+        inputForm.setLeadName("Shiva");
+        inputForm.setTechnology("Devops");
 
         when(submissionService.editSubmission(inputForm)).thenAnswer(invocation -> {
             SubmissionDTO form = invocation.getArgument(0);
@@ -94,8 +94,8 @@ public class SubmissionRepoClassTest {
 
         String id = "sampleId";
         List<SubmissionDTO> expectedList = Arrays.asList(
-                new SubmissionDTO("John Doe", "ABC Corp", 100, "Jane Smith", "Java"),
-                new SubmissionDTO("Jane Doe", "XYZ Corp", 200, "John Smith", "Python")
+                new SubmissionDTO("James", "MI Corp", 100, "Tom Cruise", "Java"),
+                new SubmissionDTO("Chris", "Marvel Corp", 200, "Stan Lee", "DE")
         );
         when(submissionService.deleteSubmission(id)).thenReturn(expectedList);
         List<SubmissionDTO> resultList = submissionResource.deleteSubmission(id);
